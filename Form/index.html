@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hiremeform</title>
+</head>
+<style>
+     .bodystyle {
+            /* border: 2px solid red; */
+            font-family: 'Titillium Web', sans-serif;
+            background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg');
+            background-size: 1920px 1480px;
+            background-repeat: no-repeat;
+        }
+        input{
+            padding: 10px;
+            font-size: medium;
+        }
+    
+   #name{
+    
+       /* color: pink; */
+   }
+
+   label{
+       color: green;
+   }
+   #rm{
+       padding: 2px;
+   }
+
+</style>
+<body class="bodystyle">
+    <form action="http://suryasen.byethost7.com/Form/db.php"  method="POST">
+  <label for="fname">NAME:</label>
+  <input type="text" id="name" name="fname" placeholder="name" required><br>
+  <label for="contact">CONTACT:</label>
+  <input type="text" id="cn" name="contact" placeholder="enter contact" required><br><br>
+  <label for="email">Email</label>
+  <input type="email" id="mail"  name="email"  required> <br>
+  <label for="remark">Remark</label>
+  <input type="text" name="remark" id="rm"  required >
+  <a href="submit.html"><input type="submit" id="sbm" name="sbm" value="Submit"> </a>
+  </form>
+
+  
+</body>
+</html>
